@@ -11,10 +11,7 @@ from src.enterprise_ai_test_agents.context import get_architecture_snapshot
 
 def main() -> None:
     snapshot = get_architecture_snapshot()
-    print(f"default_role={snapshot['default_role']}")
-    print(f"agent_count={snapshot['agent_count']}")
-    print(f"skill_count={snapshot['skill_count']}")
-    print(f"standard_count={snapshot['standard_count']}")
+    print(snapshot)
 
 
 if __name__ == "__main__":
