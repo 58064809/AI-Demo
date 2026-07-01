@@ -5,8 +5,8 @@ __pycache__/
 .mypy_cache/
 reports/
 artifacts/
+generated_images/
 *.pyc
 *.pyo
 *.log
 .env
-
